@@ -248,6 +248,9 @@ input[type="search"] {
 input[type="search"]:active, input[type="search"]:focus {
     box-shadow:2px 2px black;
 }
+.project, .advertisements, .mostPop {
+    box-shadow: 0 8px 8px -4px gray;
+}
 /* Smaller screens */
 @media (max-width:750px) {
     .advertisements, .mostPop {
