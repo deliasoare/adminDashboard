@@ -198,6 +198,9 @@ select:active, select:focus {
     justify-self:center;
     color:#FFE4CC;
 }
+a {
+    text-decoration:none;
+}
 .advertisements, .mostPop {
     justify-self:center;
     min-width:250px;
