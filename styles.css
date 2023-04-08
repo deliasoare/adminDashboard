@@ -76,6 +76,24 @@ select {
     grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
 }
 
+/* Design */
+ul {
+    list-style:none;
+}
+.header, .sidebar, .footer {
+    background:#6C4545;
+}
+.main {
+    background:#FFE4CC;
+}
+.advertisements {
+    background:#F4CACA;
+    color:#4B4B3C;
+}
+.mostPop {
+    background:#F4F2CA;
+    color:#8A6A6A;
+}
 
 
 
