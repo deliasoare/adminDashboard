@@ -31,7 +31,7 @@ html, body {
 /* In-section alignment */
 .header {
     display:grid;
-    grid-template-columns:4fr 1fr;
+    grid-template-columns:3fr 1fr;
     align-content:center;
 }
 .sidebar {
@@ -39,7 +39,8 @@ html, body {
     grid-template-rows:2fr 4fr 4fr 5fr;
     justify-items:center;
     align-items:center;
-    gap:10rem;
+    gap:10%;
+    min-height:fit-content;
 }
 ul {
     display:grid;
@@ -51,6 +52,7 @@ ul {
     display:grid;
     grid-template-columns:4fr 1fr;
     grid-template-rows:1fr 1fr;
+    min-height:fit-content;
 }
 
 .noFrameworks {
@@ -137,9 +139,7 @@ h2 {
     font-size:2.5rem;
     height:fit-content;
 }
-.project {
-    border:1px solid black;
-}
+
 .title {
     font-size:1.2rem;
 }
@@ -170,6 +170,7 @@ h2 {
 .searchBar {
     display:flex;
     max-width:700px;
+    margin-left:5%;
 }
 #newProject {
     margin-right:5%;
@@ -178,4 +179,7 @@ h2 {
     border:none;
     box-shadow:3px 3px black;
     background:#FFE4CC;
+}
+.title {
+
 }
