@@ -10,8 +10,8 @@ html, body {
     height:100%;
     width:100%;
     display:grid; 
-    grid-template-rows:minmax(75px,1fr) 8fr minmax(75px,1fr);
-    grid-template-columns:1fr 5fr;
+    grid-template-rows:minmax(75px,1fr) minmax(200px, 8fr) minmax(75px,1fr);
+    grid-template-columns:minmax(200px, 0.5fr) 5fr;
 }
 .header {
     grid-column:2/-1;
