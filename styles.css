@@ -110,7 +110,7 @@ select {
 .advertisements, .mostPop {
     height:min(80%, 400px);
 }
-.icon {
+.icon, .pop {
     height:2rem;
 }
 li {
@@ -201,8 +201,36 @@ select:active, select:focus {
 .advertisements, .mostPop {
     justify-self:center;
     min-width:250px;
+    display:grid;
+    grid-template-rows:1fr 3fr;
 }
-
+.advertisements > h6, .mostPop > h6 {
+    grid-row:1;
+    justify-self:center;
+    align-self:center;
+    font-size:1.2rem;
+}
+.context {
+    margin:0 auto;
+}
+.context > h6 {
+    text-align:center;
+}
+.ad {
+    max-height:150px;
+    justify-self:center;
+    border:1px solid #6C4545;
+}
+.post {
+    display:flex;
+    align-items:center;
+    gap:5%;
+}
+.context {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
 /* Smaller screens */
 @media (max-width:750px) {
     .advertisements, .mostPop {
