@@ -46,4 +46,28 @@ ul {
     gap:1rem;
 }
 
+.main {
+    display:grid;
+    grid-template-columns:4fr 1fr;
+    grid-template-rows:1fr 1fr;
+}
+
+.noFrameworks {
+    grid-column:1;
+    grid-row:1;
+}
+.frameworks {
+    grid-column:1;
+    grid-row:2;
+}
+.advertisements {
+    grid-column:2;
+    grid-row:1;
+}
+.mostPop {
+    grid-column:2;
+    grid-row:2;
+}
+
+
 
