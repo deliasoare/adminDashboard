@@ -234,6 +234,17 @@ select:active, select:focus {
     flex-direction:column;
     justify-content:space-evenly;
 }
+
+input[type="search"]::-webkit-search-cancel-button {
+    appearance:none;
+    -webkit-appearance:none;
+}
+input[type="search"] {
+    outline:none;
+}
+input[type="search"]:active, input[type="search"]:focus {
+    box-shadow:2px 2px black;
+}
 /* Smaller screens */
 @media (max-width:750px) {
     .advertisements, .mostPop {
