@@ -184,6 +184,12 @@ h2 {
     box-shadow:3px 3px black;
     background:#FFE4CC;
 }
-.title {
-
+select {
+    border:none;
+    background:#FFE4CC;
+    font-size:1.2rem;
+}
+select:active, select:focus {
+    border:none;
+    outline:none;
 }
