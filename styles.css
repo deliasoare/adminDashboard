@@ -54,7 +54,7 @@ ul {
 
 .main {
     display:grid;
-    grid-template-columns:4fr 1fr;
+    grid-template-columns:2fr 1fr;
     grid-template-rows:1fr 1fr;
     min-height:fit-content;
 }
@@ -192,4 +192,13 @@ select {
 select:active, select:focus {
     border:none;
     outline:none;
+}
+.title {
+    align-self:center;
+    justify-self:center;
+    color:#FFE4CC;
+}
+.advertisements, .mostPop {
+    justify-self:center;
+    min-width:250px;
 }
