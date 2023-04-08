@@ -34,3 +34,16 @@ html, body {
     grid-template-columns:4fr 1fr;
     align-content:center;
 }
+.sidebar {
+    display:grid;
+    grid-template-rows:2fr 4fr 4fr 5fr;
+    justify-items:center;
+    align-items:center;
+}
+ul {
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+
