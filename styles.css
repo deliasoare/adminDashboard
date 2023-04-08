@@ -10,14 +10,14 @@ html, body {
     height:100%;
     width:100%;
     display:grid; 
-    grid-template-rows:1fr 4fr 1fr;
+    grid-template-rows:1fr 8fr 1fr;
     grid-template-columns:1fr 5fr;
 }
 .header {
-    grid-column:1/-1;
+    grid-column:2/-1;
 }
 .sidebar {
-    grid-row:2;
+    grid-row:1/-1;
     grid-column:1;
 }
 .main {
@@ -25,5 +25,6 @@ html, body {
     grid-column:2;
 }
 .footer {
-    grid-column:1/-1;
+    grid-column:2/-1;
 }
+
