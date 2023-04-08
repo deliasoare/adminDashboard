@@ -28,3 +28,9 @@ html, body {
     grid-column:2/-1;
 }
 
+/* In-section alignment */
+.header {
+    display:grid;
+    grid-template-columns:4fr 1fr;
+    align-content:center;
+}
