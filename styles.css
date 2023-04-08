@@ -124,6 +124,7 @@ ul {
 .logo {
     font-size:3rem;
     margin-top:10%;
+    font-weight:bold;
 }
 
 input[type="search"] {
@@ -183,6 +184,7 @@ h2 {
     border:none;
     box-shadow:3px 3px black;
     background:#FFE4CC;
+    font-weight:bold;
 }
 select {
     border:none;
@@ -277,6 +279,7 @@ input[type="search"]:active, input[type="search"]:focus {
     .header::before {
         content:'Portfolio';
         font-size:3rem;
+        font-weight:bold;
     }
     .header {
         display:flex;
