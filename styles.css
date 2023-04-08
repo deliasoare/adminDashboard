@@ -110,6 +110,7 @@ select {
 li {
     font-size:1.3rem;
     display:flex;
+    gap:5%;
 }
 ul {
     width:80%;
@@ -164,8 +165,17 @@ h2 {
 }
 .project {
     max-height:150px;
+    background:#6C4545;
 }
 .searchBar {
     display:flex;
     max-width:700px;
+}
+#newProject {
+    margin-right:5%;
+    border-radius:25px;
+    width:clamp(75px, 100px, 150px);
+    border:none;
+    box-shadow:3px 3px black;
+    background:#FFE4CC;
 }
