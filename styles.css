@@ -202,3 +202,42 @@ select:active, select:focus {
     justify-self:center;
     min-width:250px;
 }
+
+/* Smaller screens */
+@media (max-width:750px) {
+    .advertisements, .mostPop {
+        display:none;
+    }
+}
+@media (max-width:650px) {
+    .content {
+        display:grid;
+        grid-template-rows:100px 1fr;
+    }
+    .main {
+        grid-template-columns:1fr;
+    }
+    .main, .header {
+        grid-column:1/-1;
+    }
+    .header {
+        grid-row:1;
+    }
+    .sidebar, input[type="search"] {
+        display:none;
+    }
+    .header::before {
+        content:'Portfolio';
+        font-size:3rem;
+    }
+    .header {
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding:1em;
+    }
+    button {
+        padding:1em;
+    }
+
+}
