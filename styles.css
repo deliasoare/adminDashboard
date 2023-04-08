@@ -226,6 +226,9 @@ select:active, select:focus {
     align-items:center;
     gap:5%;
 }
+.post, .logo, li,  .icon, #newProject, .ad, select {
+    cursor:pointer;
+}
 .context {
     display:flex;
     flex-direction:column;
