@@ -184,7 +184,7 @@ h2 {
     border:none;
     box-shadow:3px 3px black;
     background:#FFE4CC;
-    font-weight:bold;
+    font-weight:bolder;
 }
 select {
     border:none;
@@ -252,6 +252,17 @@ input[type="search"]:active, input[type="search"]:focus {
 }
 .project, .advertisements, .mostPop {
     box-shadow: 0 8px 8px -4px gray;
+}
+a:hover, a:focus, a:active, li:hover, li:focus, li:active, .logo:hover, .logo:focus, .logo:active, .post:hover, .post:active, .post:focus, #newProject:hover, #newProject:focus, #newProject:active {
+    scale:1.05;
+    transition:0.2s;
+}
+#newProject:hover {
+    font-weight:bold;
+}
+.searchBar:hover {
+    scale:1.02;
+    transition:0.1s;
 }
 /* Smaller screens */
 @media (max-width:750px) {
