@@ -264,6 +264,9 @@ a:hover, a:focus, a:active, li:hover, li:focus, li:active, .logo:hover, .logo:fo
     scale:1.02;
     transition:0.1s;
 }
+.project {
+    border-radius:10px;
+}
 /* Smaller screens */
 @media (max-width:750px) {
     .advertisements, .mostPop {
