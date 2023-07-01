@@ -1,2 +1,2 @@
 # Admin Dashboard
-## Demo Code : https://deliasoare.github.io/adminDashboard/
+## Live demo : https://deliasoare.github.io/adminDashboard/
